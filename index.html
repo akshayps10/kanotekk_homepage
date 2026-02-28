@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanotekk - Engineering & Contracting</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top custom-nav">
+        <div class="container-fluid px-4 px-lg-5">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/logo-white.png" alt="Kanotekk Logo" style="height: 50px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav gap-4 text-uppercase small" style="letter-spacing: 1px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CAREER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-lg-flex gap-3 text-white">
+                <a href="#" class="text-white text-decoration-none hover-primary"><i
+                        class="bi bi-facebook small"></i></a>
+                <a href="#" class="text-white text-decoration-none hover-primary"><i
+                        class="bi bi-twitter     small"></i></a>
+                <a href="#" class="text-white text-decoration-none hover-primary"><i
+                        class="bi bi-linkedin small"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section position-relative vh-100 d-flex align-items-center"
+        style="background-image: url('images/021.jpg');">
+        <div class="overlay"></div>
+        <div class="container position-relative z-1 text-white text-center">
+            <h1 class="hero-title-main mb-2 text-start">Mission Provide <span class="fw-light">Best</span></h1>
+            <div class="d-flex justify-content-center align-items-center mt-2">
+                <div
+                    style="height: 2px; width: 100px; background-color: rgba(255,255,255,0.7); margin-right: 20px; flex-shrink:0;">
+                </div>
+                <h2 class="hero-title-sub mb-0">Industrial Solution for Everyone</h2>
+            </div>
+        </div>
+        <div class="position-absolute bottom-0 pb-5 start-0 w-100">
+            <div class="container">
+                <div class="d-flex justify-content-center align-items-center gap-2">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introductory Section -->
+    <section class="py-5 bg-white text-center intro-section d-flex align-items-center" style="min-height: 400px;">
+        <div class="container py-5">
+            <h2 class="fw-light mb-0 mx-auto"
+                style="max-width: 900px; line-height: 1.6; font-family: 'Poppins', sans-serif; font-size: 2.2rem; color: #2C4356;">
+                <span class="d-block mb-2">Developing Our People for Growing Our Business.</span>
+                <span style="color: #E84545;">Reliable Engineering</span> Takes Many Forms.
+            </h2>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="services-grid">
+                <!-- Item 1: Marine -->
+                <div class="service-item item-marine">
+                    <div class="service-bg" style="background-image: url('images/1.jpg');"></div>
+                    <div class="service-content p-4 d-flex flex-column justify-content-end h-100">
+                        <p class="text-orange small fw-bold mb-1 feature-title">SHIP DESIGN</p>
+                        <h3 class="text-white h5 fw-bold mb-0 text-uppercase d-flex align-items-center">
+                            Marine <i class="bi bi-chevron-right ms-2 op-arrow transition-all"></i>
+                        </h3>
+                    </div>
+                </div>
+
+                <!-- Item 2: Offshore -->
+                <div class="service-item item-offshore">
+                    <div class="service-bg" style="background-image: url('images/2.jpg');"></div>
+                    <div class="service-content p-4 d-flex flex-column justify-content-end h-100">
+                        <p class="text-orange small fw-bold mb-1 feature-title">OFFSHORE VESSEL DESIGN</p>
+                        <h3 class="text-white h5 fw-bold mb-0 text-uppercase d-flex align-items-center">
+                            Offshore <i class="bi bi-chevron-right ms-2 op-arrow transition-all"></i>
+                        </h3>
+                    </div>
+                </div>
+
+                <!-- Item 3: Oil & Gas -->
+                <div class="service-item item-oil-gas">
+                    <div class="service-bg" style="background-image: url('images/3.jpg');"></div>
+                    <div class="service-content p-4 d-flex flex-column justify-content-end h-100">
+                        <p class="text-orange small fw-bold mb-1 feature-title">DESIGN & ANALYSIS</p>
+                        <h3 class="text-white h5 fw-bold mb-0 text-uppercase d-flex align-items-center">
+                            Oil & Gas <i class="bi bi-chevron-right ms-2 op-arrow transition-all"></i>
+                        </h3>
+                    </div>
+                </div>
+
+                <!-- Item 4: Process Plants -->
+                <div class="service-item item-process-plants">
+                    <div class="service-bg" style="background-image: url('images/4.jpg');"></div>
+                    <div class="service-content p-4 d-flex flex-column justify-content-end h-100">
+                        <p class="text-orange small fw-bold mb-1 feature-title">PROCESS PLANT DESIGN</p>
+                        <h3 class="text-white h5 fw-bold mb-0 text-uppercase d-flex align-items-center">
+                            Process Plants <i class="bi bi-chevron-right ms-2 op-arrow transition-all"></i>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center py-5">
+                <a href="#" class="btn-more-services">
+                    MORE SERVICES <i class="bi bi-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience / Map Section -->
+    <section class="experience-section">
+        <div class="map-bg"></div>
+        <div class="container text-center">
+            <p class="section-subtitle">WHY CHOOSE US</p>
+            <h2 class="section-title">Our Engineer <span class="text-red">25 Year Experience</span><br>in Industry</h2>
+            <p class="section-desc">
+                We have a long and proud history givin emphasis to environment social and economic<br
+                    class="d-none d-md-block"> outcomes to deliver places that respond.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact/Quote Section -->
+    <section class="contact-section position-relative"
+        style="background-image: url('images/pexels-vitaly-vlasov-1737779.jpg');">
+        <!-- Overlay right side -->
+        <div class="contact-overlay-right"></div>
+
+        <div class="container h-100 position-relative z-3 py-5">
+            <div class="row h-100 align-items-center py-5">
+                <div class="col-lg-7 col-md-8 offset-lg-5 offset-md-4 ps-md-5">
+                    <p class="text-white small mb-2 text-uppercase tracking-wider" style="font-weight: 500;">GET A QUOTE
+                    </p>
+                    <h2 class="text-white fw-light mb-5" style="font-size: 3.5rem;">Request a Quote</h2>
+
+                    <form id="quoteForm">
+                        <div class="row mb-5">
+                            <div class="col-sm-6 mb-5 mb-sm-0">
+                                <div class="form-group-custom">
+                                    <label class="form-label-custom">NAME</label>
+                                    <input type="text" class="form-control form-control-custom" id="name" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group-custom">
+                                    <label class="form-label-custom">PHONE NUMBER</label>
+                                    <input type="tel" class="form-control form-control-custom" id="phone" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col-sm-6 mb-5 mb-sm-0">
+                                <div class="form-group-custom">
+                                    <label class="form-label-custom">E-MAIL</label>
+                                    <input type="email" class="form-control form-control-custom" id="email" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group-custom">
+                                    <label class="form-label-custom">SUBJECT</label>
+                                    <input type="text" class="form-control form-control-custom" id="subject" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-end">
+                            <div class="col-sm-6 mb-5 mb-sm-0">
+                                <div class="form-group-custom">
+                                    <label class="form-label-custom">MESSAGE</label>
+                                    <textarea class="form-control form-control-custom" id="message" rows="1" required
+                                        style="resize: none;"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <button type="submit"
+                                    class="btn btn-warning rounded-0 w-100 py-3 fw-bold text-white submit-btn-image">SEND
+                                    MESSAGE</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <!-- Top Footer -->
+        <div class="footer-top py-5 bg-white border-top">
+            <div class="container-fluid px-4 px-lg-5">
+                <div class="row align-items-center">
+                    <div class="col-md-9 text-center text-md-start mb-4 mb-md-0">
+                        <ul class="list-inline mb-0 footer-nav-links small text-uppercase fw-bold"
+                            style="letter-spacing: 1.5px;">
+                            <li class="list-inline-item me-lg-5 me-4"><a href="#"
+                                    class="text-dark text-decoration-none">HOME</a></li>
+                            <li class="list-inline-item me-lg-5 me-4"><a href="#"
+                                    class="text-dark text-decoration-none">SERVICES</a></li>
+                            <li class="list-inline-item me-lg-5 me-4"><a href="#"
+                                    class="text-dark text-decoration-none">PROJECTS</a></li>
+                            <li class="list-inline-item me-lg-5 me-4"><a href="#"
+                                    class="text-dark text-decoration-none">CAREER</a></li>
+                            <li class="list-inline-item"><a href="#" class="text-dark text-decoration-none">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 text-center text-md-end">
+                        <div class="d-flex justify-content-center justify-content-md-end gap-4 footer-social-black">
+                            <a href="#" class="text-dark"><i class="bi bi-facebook fs-5"></i></a>
+                            <a href="#" class="text-dark"><i class="bi bi-twitter fs-5"></i></a>
+                            <a href="#" class="text-dark"><i class="bi bi-linkedin fs-5"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Footer -->
+        <div class="footer-bottom py-4">
+            <div class="container-fluid px-4 px-lg-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                        <p class="mb-0">All Rights Reserved.© Kanotekk 2020</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <p class="mb-0">Powered by <span class="footer-white-text">Crantia Technologies</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
